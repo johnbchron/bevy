@@ -76,7 +76,7 @@ wgpu = { version = "0.20", default-features = false, features = [
   "metal",
   "naga",
   "naga-ir",
-  "vulkan-compatibility",
+  "vulkan-portability",
   "fragile-send-sync-non-atomic-wasm",
 ] }
 naga = { version = "0.20", features = ["wgsl-in"] }
